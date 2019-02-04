@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 # Kishan Patel 914983103
+# Shraddha Agrawal
 
 import sys
 import os
@@ -12,6 +13,7 @@ datafile = open(os.getcwd() + '/' + datafile, mode='r')
 data = datafile.read().splitlines()
 datafile.close()
 write = open('output.txt', 'w+')
+
 for ip in inIp:
     ip_i = ip.split('.')
     ispIp = ''
