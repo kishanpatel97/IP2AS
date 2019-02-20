@@ -1,6 +1,5 @@
 #! /usr/bin/env python
-# Kishan Patel 914983103
-# Shraddha Agrawal
+# Kishan Patel
 
 import sys
 import os
